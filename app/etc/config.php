@@ -174,6 +174,15 @@ return [
             'area' => 'frontend',
             'type' => '0',
             'code' => 'Swissup/absolute'
+        ],
+        'frontend/Proffs/Theme' => [
+            'parent_id' => 'Magento/luma',
+            'theme_path' => 'Proffs/Theme',
+            'theme_title' => 'Pro Theme',
+            'is_featured' => '0',
+            'area' => 'frontend',
+            'type' => '0',
+            'code' => 'Proffs/Theme'
         ]
     ]
 ];
